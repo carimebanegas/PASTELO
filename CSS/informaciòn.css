@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body { margin: 40px;
+    background-color: beige;
+    border: 2px solid black;
+    background: url(../imagenes/fondooo.jpg);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+video{
+    margin: 30px 200px auto;
+    border: 3px solid #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+}
+h1{text-align: center;
+    font-size: 40px;
+    font-family: serif;
+color: black;
+    margin: 02px 06cm;
+background-color: antiquewhite; 
+border: 3px solid #fff}
+
+h2{text-align:justify;
+    font-size: 18px;
+    font-family:monospace;
+color: black;
+    margin: 20px 20px;
+background-color: burlywood;
+box-shadow: 3px 5px 3px #EA9684;
+border: 3px solid #fff }
+
+     #menu{
+         font-size: 14px;
+         margin: 10px 22cm;
+         padding: 10px 10px; 
+         background-color: burlywood;
+         box-shadow: 0px 5px 0px #EA9684;
+          margin-left: 1cm;
+         border: 3px solid #EA9684;
+       }
+       a:hover{
+     box-shadow: 0px 2px 0px #EA9684;
+}
+
+       #menu ul{
+            list-style: none;
+           margin: 0;
+           padding: 10px 10px;
+           display: flex;
+           justify-content: flex-end;
+           flex-direction: column;
+       }
+       #menu ul li{
+           display: inline-block;
+           flex-grow: 1;
+           border-top: 2px solid #fff;
+       }
+       #menu ul li a{
+       color: darkred;
+           display: block;
+           padding: 10px 20px;
+       text-decoration: none; 
+       }
+       #menu ul li a:hover{ 
+           background-color: darkseagreen;
+       }
+
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #0083e8;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
